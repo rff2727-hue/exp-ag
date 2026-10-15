@@ -1,0 +1,34 @@
+/* Exp-Ag — mapa do experimento */
+.ea-caixa { position: relative; width: 100%; font-family: Roboto, "Helvetica Neue", Arial, sans-serif; }
+.ea-mapa { width: 100%; height: 560px; border: 1px solid #D8D2C4; border-radius: 6px; background: #EDE8DD; }
+.ea-caixa.arrastando .ea-mapa { cursor: grabbing !important; }
+.leaflet-container { font-family: Roboto, "Helvetica Neue", Arial, sans-serif; background: #EDE8DD; }
+.leaflet-container a { color: #174A51; }
+path.move { cursor: move; }
+path.grab { cursor: grab; }
+.ea-rot { background: none; border: none; pointer-events: none; }
+.ea-rot div { white-space: pre; text-align: center; line-height: 1.12; font-weight: 400; position: absolute;
+  left: 0; top: 0; text-shadow: 0 0 2px rgba(255, 255, 255, 0.55); }
+.ea-bloco { font-size: 13px; color: #FFFFFF; background: rgba(23, 74, 81, 0.86); padding: 2px 7px; border-radius: 3px;
+  text-shadow: none !important; letter-spacing: 0.02em; }
+.ea-cota { font-size: 11px; color: #1C1D1F; background: rgba(255, 255, 255, 0.9); padding: 0 4px; border-radius: 2px;
+  text-shadow: none !important; }
+.ea-cota.geral { font-size: 12px; color: #174A51; border: 1px solid #174A51; }
+.ea-piq { font-size: 10px; color: #3A2A10; background: rgba(244, 240, 232, 0.92); padding: 0 3px; border-radius: 2px;
+  transform: translate(6px, -14px); text-shadow: none !important; }
+.ea-dica { font-family: Roboto, Arial, sans-serif; font-size: 12px; line-height: 1.35; color: #1C1D1F;
+  border: 1px solid #D8D2C4; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12); }
+.ea-ctl { background: #FFFFFF; padding: 4px; display: flex; flex-direction: column; gap: 4px; border-radius: 4px; }
+.ea-ctl button { font: 12px Roboto, Arial, sans-serif; border: 1px solid #D8D2C4; background: #FFFFFF; color: #174A51;
+  border-radius: 3px; padding: 3px 8px; cursor: pointer; }
+.ea-ctl button:hover { background: #F4F0E8; }
+.ea-fundo { display: flex; gap: 3px; }
+.ea-fundo button.ativo { background: #174A51; color: #FFFFFF; border-color: #174A51; }
+.ea-painel { position: absolute; left: 10px; bottom: 26px; z-index: 800; max-width: 62%; font-size: 12px;
+  line-height: 1.4; color: #1C1D1F; background: rgba(255, 255, 255, 0.93); border-left: 3px solid #AE7E2F;
+  padding: 5px 9px; border-radius: 3px; pointer-events: none; }
+.ea-barra-des { position: absolute; left: 50%; top: 10px; transform: translateX(-50%); z-index: 800; display: none;
+  gap: 6px; }
+.ea-barra-des button { font: 12px Roboto, Arial, sans-serif; border: 1px solid #D8D2C4; background: #FFFFFF;
+  color: #174A51; border-radius: 3px; padding: 5px 10px; cursor: pointer; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15); }
+.ea-barra-des button.primario { background: #AE7E2F; border-color: #AE7E2F; color: #FFFFFF; }
