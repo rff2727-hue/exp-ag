@@ -1,0 +1,60 @@
+{
+  "nome": "Fatorial com tratamento adicional",
+  "descricao": "Fatorial 3 × 2 + testemunha sem P (7 tratamentos), 4 blocos.",
+  "ambiente": "campo",
+  "delineamento": "DBC",
+  "repeticoes": 4,
+  "numeracao": "bloco",
+  "padrao_codigo": "{exp}-P{parcela}-B{bloco}-T{trat}",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Fonte de P",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Superfosfato triplo",
+            "valor": null
+          },
+          {
+            "rotulo": "Fosfato natural reativo",
+            "valor": null
+          },
+          {
+            "rotulo": "Organomineral",
+            "valor": null
+          }
+        ]
+      },
+      {
+        "nome": "Inoculação",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Sem",
+            "valor": null
+          },
+          {
+            "rotulo": "Com",
+            "valor": null
+          }
+        ]
+      }
+    ],
+    "adicionais": [
+      {
+        "rotulo": "Testemunha sem P",
+        "descricao": "Sem aplicação de fósforo",
+        "papel": "testemunha"
+      }
+    ]
+  },
+  "layout": {
+    "tipo": "parcelas",
+    "colunas_por_bloco": 7,
+    "largura": 3.0,
+    "comprimento": 6.0
+  }
+}

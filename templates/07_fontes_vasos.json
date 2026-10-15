@@ -1,0 +1,64 @@
+{
+  "nome": "Fontes de fertilizante em vasos",
+  "descricao": "4 fontes × 2 doses + controle, DIC com 4 repetições (36 vasos).",
+  "ambiente": "casa de vegetação",
+  "delineamento": "DIC",
+  "repeticoes": 4,
+  "numeracao": "sequencial",
+  "padrao_codigo": "{exp}-P{parcela}-T{trat}-R{rep}",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Fonte",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Fonte A",
+            "valor": null
+          },
+          {
+            "rotulo": "Fonte B",
+            "valor": null
+          },
+          {
+            "rotulo": "Fonte C",
+            "valor": null
+          },
+          {
+            "rotulo": "Fonte D",
+            "valor": null
+          }
+        ]
+      },
+      {
+        "nome": "Dose de P",
+        "tipo": "quantitativo",
+        "unidade": "mg kg⁻¹",
+        "niveis": [
+          {
+            "rotulo": "50",
+            "valor": 50
+          },
+          {
+            "rotulo": "100",
+            "valor": 100
+          }
+        ]
+      }
+    ],
+    "adicionais": [
+      {
+        "rotulo": "Controle sem P",
+        "descricao": "",
+        "papel": "testemunha"
+      }
+    ]
+  },
+  "layout": {
+    "tipo": "vasos",
+    "colunas_por_bloco": 9,
+    "diametro_vaso": 0.22,
+    "espaco_vasos": 0.08
+  }
+}

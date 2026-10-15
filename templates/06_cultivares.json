@@ -1,0 +1,79 @@
+{
+  "nome": "Ensaio de cultivares",
+  "descricao": "12 cultivares em 4 blocos; blocos empilhados, numeração em serpentina.",
+  "ambiente": "campo",
+  "delineamento": "DBC",
+  "repeticoes": 4,
+  "numeracao": "bloco",
+  "padrao_codigo": "{exp}-P{parcela}-B{bloco}-T{trat}",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Cultivar",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Cultivar A",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar B",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar C",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar D",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar E",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar F",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar G",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar H",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar I",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar J",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar K",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar L",
+            "valor": null
+          }
+        ]
+      }
+    ],
+    "adicionais": []
+  },
+  "layout": {
+    "tipo": "parcelas",
+    "colunas_por_bloco": 12,
+    "arranjo_blocos": "vertical",
+    "ordem": "serpentina",
+    "n_linhas_plantio": 4,
+    "espacamento_linhas": 0.5,
+    "linhas_bordadura": 1,
+    "comprimento": 5.0
+  }
+}

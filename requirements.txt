@@ -1,0 +1,24 @@
+# Dependências de produção (testadas com Python 3.12 e 3.13)
+streamlit==1.66.0
+pandas==3.0.5
+numpy==2.5.3
+plotly==7.1.0
+matplotlib==3.11.2
+SQLAlchemy==2.1.4
+alembic==1.20.0
+psycopg[binary]==3.3.6
+reportlab==5.0.1
+pypdf==5.9.0
+XlsxWriter==3.2.9
+openpyxl==3.1.5
+# Diagnóstico por satélite (porte da recomenda-solo v17)
+scipy==1.18.1
+shapely==2.2.0
+pyproj==3.8.0
+# Fase 3: leitura e escrita de Shapefile, GeoPackage, GPX e KML (GDAL embutido) e DXF para CAD
+pyogrio==0.13.0
+ezdxf==1.4.4
+rasterio==1.5.2
+requests==2.34.2
+pillow==12.3.0
+h5py==3.16.0

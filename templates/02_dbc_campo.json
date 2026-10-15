@@ -1,0 +1,72 @@
+{
+  "nome": "DBC a campo",
+  "descricao": "10 tratamentos em 4 blocos (40 parcelas de 3 × 6 m), blocos lado a lado.",
+  "ambiente": "campo",
+  "delineamento": "DBC",
+  "repeticoes": 4,
+  "numeracao": "bloco",
+  "padrao_codigo": "{exp}-P{parcela}-B{bloco}-T{trat}",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Tratamento",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Tratamento 1",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 2",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 3",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 4",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 5",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 6",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 7",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 8",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 9",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 10",
+            "valor": null
+          }
+        ]
+      }
+    ],
+    "adicionais": []
+  },
+  "layout": {
+    "tipo": "parcelas",
+    "colunas_por_bloco": 5,
+    "largura": 3.0,
+    "comprimento": 6.0,
+    "espaco_x": 0.5,
+    "espaco_y": 1.0,
+    "espaco_blocos": 2.0,
+    "bordadura_lateral": 0.5,
+    "bordadura_cabeceira": 0.5
+  }
+}

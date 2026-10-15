@@ -1,0 +1,47 @@
+{
+  "nome": "Quadrado latino em bancada",
+  "descricao": "5 tratamentos em 5 × 5 vasos, controlando gradientes em linhas e colunas da bancada.",
+  "ambiente": "casa de vegetação",
+  "delineamento": "QL",
+  "repeticoes": 5,
+  "numeracao": "sequencial",
+  "padrao_codigo": "{exp}-L{lin}C{col}-T{trat}",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Tratamento",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Tratamento 1",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 2",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 3",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 4",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 5",
+            "valor": null
+          }
+        ]
+      }
+    ],
+    "adicionais": []
+  },
+  "layout": {
+    "tipo": "vasos",
+    "diametro_vaso": 0.25,
+    "espaco_vasos": 0.1,
+    "bancadas": true
+  }
+}

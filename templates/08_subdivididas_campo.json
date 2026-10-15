@@ -1,0 +1,63 @@
+{
+  "nome": "Parcelas subdivididas",
+  "descricao": "Manejo do solo (2) nas parcelas principais × dose de P (4) nas subparcelas, 4 blocos.",
+  "ambiente": "campo",
+  "delineamento": "DBC",
+  "arranjo": "subdividida",
+  "repeticoes": 4,
+  "numeracao": "bloco",
+  "padrao_codigo": "{exp}-P{parcela}-B{bloco}-T{trat}",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Manejo do solo",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Plantio direto",
+            "valor": null
+          },
+          {
+            "rotulo": "Escarificado",
+            "valor": null
+          }
+        ]
+      },
+      {
+        "nome": "Dose de P₂O₅",
+        "tipo": "quantitativo",
+        "unidade": "kg ha⁻¹",
+        "niveis": [
+          {
+            "rotulo": "0",
+            "valor": 0
+          },
+          {
+            "rotulo": "40",
+            "valor": 40
+          },
+          {
+            "rotulo": "80",
+            "valor": 80
+          },
+          {
+            "rotulo": "120",
+            "valor": 120
+          }
+        ]
+      }
+    ],
+    "adicionais": []
+  },
+  "layout": {
+    "tipo": "parcelas",
+    "colunas_por_bloco": 2,
+    "largura": 3.0,
+    "comprimento": 8.0,
+    "espaco_sub": 0.0,
+    "espaco_x": 1.0,
+    "arranjo_blocos": "vertical",
+    "espaco_blocos": 3.0
+  }
+}

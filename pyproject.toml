@@ -1,0 +1,27 @@
+[project]
+name = "agro-experimentos"
+version = "0.2.0"
+description = "Planejamento, casualização e croquis de experimentos agronômicos"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["testes"]
+pythonpath = [".", "testes"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 140
+target-version = "py312"
+extend-exclude = ["dados/migracoes/versions"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E741", "B008", "B905", "UP042"]
+
+[tool.ruff.lint.per-file-ignores]
+# Módulo portado da recomenda-solo v17 e mantido idêntico ao original para facilitar a sincronização de correções.
+"motor/sat/*.py" = ["ALL"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["motor", "dados", "aplicacao", "componentes", "ui"]

@@ -1,0 +1,51 @@
+{
+  "nome": "DIC em vasos",
+  "descricao": "Casa de vegetação: 6 tratamentos × 5 repetições (30 vasos) em grade de 6 colunas.",
+  "ambiente": "casa de vegetação",
+  "delineamento": "DIC",
+  "repeticoes": 5,
+  "numeracao": "sequencial",
+  "padrao_codigo": "{exp}-P{parcela}-T{trat}-R{rep}",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Tratamento",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Tratamento 1",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 2",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 3",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 4",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 5",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 6",
+            "valor": null
+          }
+        ]
+      }
+    ],
+    "adicionais": []
+  },
+  "layout": {
+    "tipo": "vasos",
+    "colunas_por_bloco": 6,
+    "diametro_vaso": 0.25,
+    "espaco_vasos": 0.1
+  }
+}

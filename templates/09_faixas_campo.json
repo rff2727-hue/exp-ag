@@ -1,0 +1,65 @@
+{
+  "nome": "Parcelas em faixas",
+  "descricao": "Preparo do solo (3) em faixas horizontais × cultivar (4) em faixas verticais, 3 blocos.",
+  "ambiente": "campo",
+  "delineamento": "DBC",
+  "arranjo": "faixas",
+  "repeticoes": 3,
+  "numeracao": "bloco",
+  "padrao_codigo": "{exp}-P{parcela}-B{bloco}-T{trat}",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Preparo",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Grade",
+            "valor": null
+          },
+          {
+            "rotulo": "Escarificação",
+            "valor": null
+          },
+          {
+            "rotulo": "Plantio direto",
+            "valor": null
+          }
+        ]
+      },
+      {
+        "nome": "Cultivar",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Cultivar A",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar B",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar C",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar D",
+            "valor": null
+          }
+        ]
+      }
+    ],
+    "adicionais": []
+  },
+  "layout": {
+    "tipo": "parcelas",
+    "largura": 4.0,
+    "comprimento": 6.0,
+    "espaco_x": 0.0,
+    "espaco_y": 0.0,
+    "espaco_blocos": 5.0
+  }
+}

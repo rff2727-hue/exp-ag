@@ -1,0 +1,57 @@
+{
+  "nome": "Fatorial 3 × 2",
+  "descricao": "Fonte de P (3) × inoculação (2), 4 blocos (24 parcelas).",
+  "ambiente": "campo",
+  "delineamento": "DBC",
+  "repeticoes": 4,
+  "numeracao": "bloco",
+  "padrao_codigo": "{exp}-P{parcela}-B{bloco}-T{trat}",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Fonte de P",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Superfosfato triplo",
+            "valor": null
+          },
+          {
+            "rotulo": "Fosfato natural reativo",
+            "valor": null
+          },
+          {
+            "rotulo": "Organomineral",
+            "valor": null
+          }
+        ]
+      },
+      {
+        "nome": "Inoculação",
+        "tipo": "qualitativo",
+        "unidade": "",
+        "niveis": [
+          {
+            "rotulo": "Sem",
+            "valor": null
+          },
+          {
+            "rotulo": "Com",
+            "valor": null
+          }
+        ]
+      }
+    ],
+    "adicionais": []
+  },
+  "layout": {
+    "tipo": "parcelas",
+    "colunas_por_bloco": 6,
+    "n_linhas_plantio": 6,
+    "espacamento_linhas": 0.45,
+    "linhas_bordadura": 1,
+    "comprimento": 6.0,
+    "bordadura_cabeceira": 0.5
+  }
+}

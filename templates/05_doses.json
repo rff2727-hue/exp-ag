@@ -1,0 +1,47 @@
+{
+  "nome": "Ensaio de doses",
+  "descricao": "5 doses de P₂O₅ (0 a 200 kg ha⁻¹), 4 blocos — preparado para regressão.",
+  "ambiente": "campo",
+  "delineamento": "DBC",
+  "repeticoes": 4,
+  "numeracao": "bloco",
+  "padrao_codigo": "{exp}-P{parcela}-B{bloco}-T{trat}",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Dose de P₂O₅",
+        "tipo": "quantitativo",
+        "unidade": "kg ha⁻¹",
+        "niveis": [
+          {
+            "rotulo": "0",
+            "valor": 0
+          },
+          {
+            "rotulo": "50",
+            "valor": 50
+          },
+          {
+            "rotulo": "100",
+            "valor": 100
+          },
+          {
+            "rotulo": "150",
+            "valor": 150
+          },
+          {
+            "rotulo": "200",
+            "valor": 200
+          }
+        ]
+      }
+    ],
+    "adicionais": []
+  },
+  "layout": {
+    "tipo": "parcelas",
+    "colunas_por_bloco": 5,
+    "largura": 3.0,
+    "comprimento": 5.0
+  }
+}
