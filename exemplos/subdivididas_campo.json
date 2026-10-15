@@ -1,0 +1,618 @@
+{
+  "esquema": "exp-ag/planejamento@2",
+  "exportado_em": "2026-10-15T13:06:32+00:00",
+  "meta": {
+    "codigo": "EX-SUB",
+    "titulo": "Parcelas subdivididas",
+    "projeto": "",
+    "instituicao": "",
+    "responsavel": "",
+    "colaboradores": "",
+    "objetivos": "",
+    "hipoteses": "",
+    "cultura": "",
+    "cultivar": "",
+    "local": "",
+    "municipio": "",
+    "uf": "",
+    "safra": "",
+    "ambiente": "campo",
+    "data_prevista": "",
+    "data_implantacao": "",
+    "observacoes": ""
+  },
+  "delineamento": "DBC",
+  "arranjo": "subdividida",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Manejo do solo",
+        "niveis": [
+          {
+            "rotulo": "Plantio direto",
+            "valor": null
+          },
+          {
+            "rotulo": "Escarificado",
+            "valor": null
+          }
+        ],
+        "tipo": "qualitativo",
+        "unidade": ""
+      },
+      {
+        "nome": "Dose de P₂O₅",
+        "niveis": [
+          {
+            "rotulo": "0",
+            "valor": 0
+          },
+          {
+            "rotulo": "40",
+            "valor": 40
+          },
+          {
+            "rotulo": "80",
+            "valor": 80
+          },
+          {
+            "rotulo": "120",
+            "valor": 120
+          }
+        ],
+        "tipo": "quantitativo",
+        "unidade": "kg ha⁻¹"
+      }
+    ],
+    "adicionais": []
+  },
+  "repeticoes": 4,
+  "layout": {
+    "tipo": "parcelas",
+    "colunas_por_bloco": 2,
+    "arranjo_blocos": "vertical",
+    "ordem": "linear",
+    "rotacao_graus": 0.0,
+    "azimute_norte": 0.0,
+    "largura": 3.0,
+    "comprimento": 8.0,
+    "espaco_x": 1.0,
+    "espaco_y": 1.0,
+    "espaco_blocos": 3.0,
+    "espaco_sub": 0.0,
+    "bordadura_externa": 0.0,
+    "bordadura_lateral": 0.5,
+    "bordadura_cabeceira": 0.5,
+    "n_linhas_plantio": 0,
+    "espacamento_linhas": 0.0,
+    "linhas_bordadura": 1,
+    "diametro_vaso": 0.25,
+    "espaco_vasos": 0.1,
+    "bancadas": false,
+    "vasos_por_bancada": 0,
+    "margem_bancada": 0.05
+  },
+  "padrao_codigo": "{exp}-P{parcela}-B{bloco}-T{trat}",
+  "numeracao": "bloco",
+  "versao": 1,
+  "casualizacao": {
+    "semente": 20261015,
+    "algoritmo": "FY-SHA256-v1",
+    "unidades": [
+      {
+        "numero": 1,
+        "parcela": "101.1",
+        "tratamento": 1,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 1,
+        "codigo": "EX-SUB-P101.1-B01-T01",
+        "principal": 1,
+        "sub": 1,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 2,
+        "parcela": "101.2",
+        "tratamento": 4,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 2,
+        "codigo": "EX-SUB-P101.2-B01-T04",
+        "principal": 1,
+        "sub": 2,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 3,
+        "parcela": "101.3",
+        "tratamento": 3,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 3,
+        "codigo": "EX-SUB-P101.3-B01-T03",
+        "principal": 1,
+        "sub": 3,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 4,
+        "parcela": "101.4",
+        "tratamento": 2,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 4,
+        "codigo": "EX-SUB-P101.4-B01-T02",
+        "principal": 1,
+        "sub": 4,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 5,
+        "parcela": "102.1",
+        "tratamento": 6,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 5,
+        "codigo": "EX-SUB-P102.1-B01-T06",
+        "principal": 2,
+        "sub": 1,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 6,
+        "parcela": "102.2",
+        "tratamento": 7,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 6,
+        "codigo": "EX-SUB-P102.2-B01-T07",
+        "principal": 2,
+        "sub": 2,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 7,
+        "parcela": "102.3",
+        "tratamento": 5,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 7,
+        "codigo": "EX-SUB-P102.3-B01-T05",
+        "principal": 2,
+        "sub": 3,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 8,
+        "parcela": "102.4",
+        "tratamento": 8,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 8,
+        "codigo": "EX-SUB-P102.4-B01-T08",
+        "principal": 2,
+        "sub": 4,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 9,
+        "parcela": "201.1",
+        "tratamento": 7,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 1,
+        "codigo": "EX-SUB-P201.1-B02-T07",
+        "principal": 1,
+        "sub": 1,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 10,
+        "parcela": "201.2",
+        "tratamento": 6,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 2,
+        "codigo": "EX-SUB-P201.2-B02-T06",
+        "principal": 1,
+        "sub": 2,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 11,
+        "parcela": "201.3",
+        "tratamento": 5,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 3,
+        "codigo": "EX-SUB-P201.3-B02-T05",
+        "principal": 1,
+        "sub": 3,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 12,
+        "parcela": "201.4",
+        "tratamento": 8,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 4,
+        "codigo": "EX-SUB-P201.4-B02-T08",
+        "principal": 1,
+        "sub": 4,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 13,
+        "parcela": "202.1",
+        "tratamento": 2,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 5,
+        "codigo": "EX-SUB-P202.1-B02-T02",
+        "principal": 2,
+        "sub": 1,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 14,
+        "parcela": "202.2",
+        "tratamento": 4,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 6,
+        "codigo": "EX-SUB-P202.2-B02-T04",
+        "principal": 2,
+        "sub": 2,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 15,
+        "parcela": "202.3",
+        "tratamento": 1,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 7,
+        "codigo": "EX-SUB-P202.3-B02-T01",
+        "principal": 2,
+        "sub": 3,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 16,
+        "parcela": "202.4",
+        "tratamento": 3,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 8,
+        "codigo": "EX-SUB-P202.4-B02-T03",
+        "principal": 2,
+        "sub": 4,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 17,
+        "parcela": "301.1",
+        "tratamento": 6,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 1,
+        "codigo": "EX-SUB-P301.1-B03-T06",
+        "principal": 1,
+        "sub": 1,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 18,
+        "parcela": "301.2",
+        "tratamento": 7,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 2,
+        "codigo": "EX-SUB-P301.2-B03-T07",
+        "principal": 1,
+        "sub": 2,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 19,
+        "parcela": "301.3",
+        "tratamento": 5,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 3,
+        "codigo": "EX-SUB-P301.3-B03-T05",
+        "principal": 1,
+        "sub": 3,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 20,
+        "parcela": "301.4",
+        "tratamento": 8,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 4,
+        "codigo": "EX-SUB-P301.4-B03-T08",
+        "principal": 1,
+        "sub": 4,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 21,
+        "parcela": "302.1",
+        "tratamento": 4,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 5,
+        "codigo": "EX-SUB-P302.1-B03-T04",
+        "principal": 2,
+        "sub": 1,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 22,
+        "parcela": "302.2",
+        "tratamento": 1,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 6,
+        "codigo": "EX-SUB-P302.2-B03-T01",
+        "principal": 2,
+        "sub": 2,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 23,
+        "parcela": "302.3",
+        "tratamento": 3,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 7,
+        "codigo": "EX-SUB-P302.3-B03-T03",
+        "principal": 2,
+        "sub": 3,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 24,
+        "parcela": "302.4",
+        "tratamento": 2,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 8,
+        "codigo": "EX-SUB-P302.4-B03-T02",
+        "principal": 2,
+        "sub": 4,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 25,
+        "parcela": "401.1",
+        "tratamento": 5,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 1,
+        "codigo": "EX-SUB-P401.1-B04-T05",
+        "principal": 1,
+        "sub": 1,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 26,
+        "parcela": "401.2",
+        "tratamento": 6,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 2,
+        "codigo": "EX-SUB-P401.2-B04-T06",
+        "principal": 1,
+        "sub": 2,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 27,
+        "parcela": "401.3",
+        "tratamento": 8,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 3,
+        "codigo": "EX-SUB-P401.3-B04-T08",
+        "principal": 1,
+        "sub": 3,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 28,
+        "parcela": "401.4",
+        "tratamento": 7,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 4,
+        "codigo": "EX-SUB-P401.4-B04-T07",
+        "principal": 1,
+        "sub": 4,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 29,
+        "parcela": "402.1",
+        "tratamento": 1,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 5,
+        "codigo": "EX-SUB-P402.1-B04-T01",
+        "principal": 2,
+        "sub": 1,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 30,
+        "parcela": "402.2",
+        "tratamento": 2,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 6,
+        "codigo": "EX-SUB-P402.2-B04-T02",
+        "principal": 2,
+        "sub": 2,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 31,
+        "parcela": "402.3",
+        "tratamento": 3,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 7,
+        "codigo": "EX-SUB-P402.3-B04-T03",
+        "principal": 2,
+        "sub": 3,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 32,
+        "parcela": "402.4",
+        "tratamento": 4,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 8,
+        "codigo": "EX-SUB-P402.4-B04-T04",
+        "principal": 2,
+        "sub": 4,
+        "linha": null,
+        "coluna": null
+      }
+    ]
+  },
+  "tratamentos": [
+    {
+      "numero": 1,
+      "codigo": "T01",
+      "rotulo": "Plantio direto × 0 kg ha⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Manejo do solo": "Plantio direto",
+        "Dose de P₂O₅": "0"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 2,
+      "codigo": "T02",
+      "rotulo": "Plantio direto × 40 kg ha⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Manejo do solo": "Plantio direto",
+        "Dose de P₂O₅": "40"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 3,
+      "codigo": "T03",
+      "rotulo": "Plantio direto × 80 kg ha⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Manejo do solo": "Plantio direto",
+        "Dose de P₂O₅": "80"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 4,
+      "codigo": "T04",
+      "rotulo": "Plantio direto × 120 kg ha⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Manejo do solo": "Plantio direto",
+        "Dose de P₂O₅": "120"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 5,
+      "codigo": "T05",
+      "rotulo": "Escarificado × 0 kg ha⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Manejo do solo": "Escarificado",
+        "Dose de P₂O₅": "0"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 6,
+      "codigo": "T06",
+      "rotulo": "Escarificado × 40 kg ha⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Manejo do solo": "Escarificado",
+        "Dose de P₂O₅": "40"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 7,
+      "codigo": "T07",
+      "rotulo": "Escarificado × 80 kg ha⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Manejo do solo": "Escarificado",
+        "Dose de P₂O₅": "80"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 8,
+      "codigo": "T08",
+      "rotulo": "Escarificado × 120 kg ha⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Manejo do solo": "Escarificado",
+        "Dose de P₂O₅": "120"
+      },
+      "papel": "",
+      "descricao": ""
+    }
+  ]
+}

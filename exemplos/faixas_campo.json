@@ -1,0 +1,722 @@
+{
+  "esquema": "exp-ag/planejamento@2",
+  "exportado_em": "2026-10-15T13:06:32+00:00",
+  "meta": {
+    "codigo": "EX-FAIXAS",
+    "titulo": "Parcelas em faixas",
+    "projeto": "",
+    "instituicao": "",
+    "responsavel": "",
+    "colaboradores": "",
+    "objetivos": "",
+    "hipoteses": "",
+    "cultura": "",
+    "cultivar": "",
+    "local": "",
+    "municipio": "",
+    "uf": "",
+    "safra": "",
+    "ambiente": "campo",
+    "data_prevista": "",
+    "data_implantacao": "",
+    "observacoes": ""
+  },
+  "delineamento": "DBC",
+  "arranjo": "faixas",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Preparo",
+        "niveis": [
+          {
+            "rotulo": "Grade",
+            "valor": null
+          },
+          {
+            "rotulo": "Escarificação",
+            "valor": null
+          },
+          {
+            "rotulo": "Plantio direto",
+            "valor": null
+          }
+        ],
+        "tipo": "qualitativo",
+        "unidade": ""
+      },
+      {
+        "nome": "Cultivar",
+        "niveis": [
+          {
+            "rotulo": "Cultivar A",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar B",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar C",
+            "valor": null
+          },
+          {
+            "rotulo": "Cultivar D",
+            "valor": null
+          }
+        ],
+        "tipo": "qualitativo",
+        "unidade": ""
+      }
+    ],
+    "adicionais": []
+  },
+  "repeticoes": 3,
+  "layout": {
+    "tipo": "parcelas",
+    "colunas_por_bloco": 0,
+    "arranjo_blocos": "horizontal",
+    "ordem": "linear",
+    "rotacao_graus": 0.0,
+    "azimute_norte": 0.0,
+    "largura": 4.0,
+    "comprimento": 6.0,
+    "espaco_x": 0.0,
+    "espaco_y": 0.0,
+    "espaco_blocos": 5.0,
+    "espaco_sub": 0.0,
+    "bordadura_externa": 0.0,
+    "bordadura_lateral": 0.5,
+    "bordadura_cabeceira": 0.5,
+    "n_linhas_plantio": 0,
+    "espacamento_linhas": 0.0,
+    "linhas_bordadura": 1,
+    "diametro_vaso": 0.25,
+    "espaco_vasos": 0.1,
+    "bancadas": false,
+    "vasos_por_bancada": 0,
+    "margem_bancada": 0.05
+  },
+  "padrao_codigo": "{exp}-P{parcela}-B{bloco}-T{trat}",
+  "numeracao": "bloco",
+  "versao": 1,
+  "casualizacao": {
+    "semente": 20261015,
+    "algoritmo": "FY-SHA256-v1",
+    "unidades": [
+      {
+        "numero": 1,
+        "parcela": "101",
+        "tratamento": 10,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 1,
+        "codigo": "EX-FAIXAS-P101-B01-T10",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 1
+      },
+      {
+        "numero": 2,
+        "parcela": "102",
+        "tratamento": 12,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 2,
+        "codigo": "EX-FAIXAS-P102-B01-T12",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 2
+      },
+      {
+        "numero": 3,
+        "parcela": "103",
+        "tratamento": 11,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 3,
+        "codigo": "EX-FAIXAS-P103-B01-T11",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 3
+      },
+      {
+        "numero": 4,
+        "parcela": "104",
+        "tratamento": 9,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 4,
+        "codigo": "EX-FAIXAS-P104-B01-T09",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 4
+      },
+      {
+        "numero": 5,
+        "parcela": "105",
+        "tratamento": 6,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 5,
+        "codigo": "EX-FAIXAS-P105-B01-T06",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 1
+      },
+      {
+        "numero": 6,
+        "parcela": "106",
+        "tratamento": 8,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 6,
+        "codigo": "EX-FAIXAS-P106-B01-T08",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 2
+      },
+      {
+        "numero": 7,
+        "parcela": "107",
+        "tratamento": 7,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 7,
+        "codigo": "EX-FAIXAS-P107-B01-T07",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 3
+      },
+      {
+        "numero": 8,
+        "parcela": "108",
+        "tratamento": 5,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 8,
+        "codigo": "EX-FAIXAS-P108-B01-T05",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 4
+      },
+      {
+        "numero": 9,
+        "parcela": "109",
+        "tratamento": 2,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 9,
+        "codigo": "EX-FAIXAS-P109-B01-T02",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 1
+      },
+      {
+        "numero": 10,
+        "parcela": "110",
+        "tratamento": 4,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 10,
+        "codigo": "EX-FAIXAS-P110-B01-T04",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 2
+      },
+      {
+        "numero": 11,
+        "parcela": "111",
+        "tratamento": 3,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 11,
+        "codigo": "EX-FAIXAS-P111-B01-T03",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 3
+      },
+      {
+        "numero": 12,
+        "parcela": "112",
+        "tratamento": 1,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 12,
+        "codigo": "EX-FAIXAS-P112-B01-T01",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 4
+      },
+      {
+        "numero": 13,
+        "parcela": "201",
+        "tratamento": 9,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 1,
+        "codigo": "EX-FAIXAS-P201-B02-T09",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 1
+      },
+      {
+        "numero": 14,
+        "parcela": "202",
+        "tratamento": 10,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 2,
+        "codigo": "EX-FAIXAS-P202-B02-T10",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 2
+      },
+      {
+        "numero": 15,
+        "parcela": "203",
+        "tratamento": 12,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 3,
+        "codigo": "EX-FAIXAS-P203-B02-T12",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 3
+      },
+      {
+        "numero": 16,
+        "parcela": "204",
+        "tratamento": 11,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 4,
+        "codigo": "EX-FAIXAS-P204-B02-T11",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 4
+      },
+      {
+        "numero": 17,
+        "parcela": "205",
+        "tratamento": 1,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 5,
+        "codigo": "EX-FAIXAS-P205-B02-T01",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 1
+      },
+      {
+        "numero": 18,
+        "parcela": "206",
+        "tratamento": 2,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 6,
+        "codigo": "EX-FAIXAS-P206-B02-T02",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 2
+      },
+      {
+        "numero": 19,
+        "parcela": "207",
+        "tratamento": 4,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 7,
+        "codigo": "EX-FAIXAS-P207-B02-T04",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 3
+      },
+      {
+        "numero": 20,
+        "parcela": "208",
+        "tratamento": 3,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 8,
+        "codigo": "EX-FAIXAS-P208-B02-T03",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 4
+      },
+      {
+        "numero": 21,
+        "parcela": "209",
+        "tratamento": 5,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 9,
+        "codigo": "EX-FAIXAS-P209-B02-T05",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 1
+      },
+      {
+        "numero": 22,
+        "parcela": "210",
+        "tratamento": 6,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 10,
+        "codigo": "EX-FAIXAS-P210-B02-T06",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 2
+      },
+      {
+        "numero": 23,
+        "parcela": "211",
+        "tratamento": 8,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 11,
+        "codigo": "EX-FAIXAS-P211-B02-T08",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 3
+      },
+      {
+        "numero": 24,
+        "parcela": "212",
+        "tratamento": 7,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 12,
+        "codigo": "EX-FAIXAS-P212-B02-T07",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 4
+      },
+      {
+        "numero": 25,
+        "parcela": "301",
+        "tratamento": 6,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 1,
+        "codigo": "EX-FAIXAS-P301-B03-T06",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 1
+      },
+      {
+        "numero": 26,
+        "parcela": "302",
+        "tratamento": 8,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 2,
+        "codigo": "EX-FAIXAS-P302-B03-T08",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 2
+      },
+      {
+        "numero": 27,
+        "parcela": "303",
+        "tratamento": 7,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 3,
+        "codigo": "EX-FAIXAS-P303-B03-T07",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 3
+      },
+      {
+        "numero": 28,
+        "parcela": "304",
+        "tratamento": 5,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 4,
+        "codigo": "EX-FAIXAS-P304-B03-T05",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 4
+      },
+      {
+        "numero": 29,
+        "parcela": "305",
+        "tratamento": 10,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 5,
+        "codigo": "EX-FAIXAS-P305-B03-T10",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 1
+      },
+      {
+        "numero": 30,
+        "parcela": "306",
+        "tratamento": 12,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 6,
+        "codigo": "EX-FAIXAS-P306-B03-T12",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 2
+      },
+      {
+        "numero": 31,
+        "parcela": "307",
+        "tratamento": 11,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 7,
+        "codigo": "EX-FAIXAS-P307-B03-T11",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 3
+      },
+      {
+        "numero": 32,
+        "parcela": "308",
+        "tratamento": 9,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 8,
+        "codigo": "EX-FAIXAS-P308-B03-T09",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 4
+      },
+      {
+        "numero": 33,
+        "parcela": "309",
+        "tratamento": 2,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 9,
+        "codigo": "EX-FAIXAS-P309-B03-T02",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 1
+      },
+      {
+        "numero": 34,
+        "parcela": "310",
+        "tratamento": 4,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 10,
+        "codigo": "EX-FAIXAS-P310-B03-T04",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 2
+      },
+      {
+        "numero": 35,
+        "parcela": "311",
+        "tratamento": 3,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 11,
+        "codigo": "EX-FAIXAS-P311-B03-T03",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 3
+      },
+      {
+        "numero": 36,
+        "parcela": "312",
+        "tratamento": 1,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 12,
+        "codigo": "EX-FAIXAS-P312-B03-T01",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 4
+      }
+    ]
+  },
+  "tratamentos": [
+    {
+      "numero": 1,
+      "codigo": "T01",
+      "rotulo": "Grade × Cultivar A",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Grade",
+        "Cultivar": "Cultivar A"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 2,
+      "codigo": "T02",
+      "rotulo": "Grade × Cultivar B",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Grade",
+        "Cultivar": "Cultivar B"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 3,
+      "codigo": "T03",
+      "rotulo": "Grade × Cultivar C",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Grade",
+        "Cultivar": "Cultivar C"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 4,
+      "codigo": "T04",
+      "rotulo": "Grade × Cultivar D",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Grade",
+        "Cultivar": "Cultivar D"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 5,
+      "codigo": "T05",
+      "rotulo": "Escarificação × Cultivar A",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Escarificação",
+        "Cultivar": "Cultivar A"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 6,
+      "codigo": "T06",
+      "rotulo": "Escarificação × Cultivar B",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Escarificação",
+        "Cultivar": "Cultivar B"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 7,
+      "codigo": "T07",
+      "rotulo": "Escarificação × Cultivar C",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Escarificação",
+        "Cultivar": "Cultivar C"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 8,
+      "codigo": "T08",
+      "rotulo": "Escarificação × Cultivar D",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Escarificação",
+        "Cultivar": "Cultivar D"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 9,
+      "codigo": "T09",
+      "rotulo": "Plantio direto × Cultivar A",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Plantio direto",
+        "Cultivar": "Cultivar A"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 10,
+      "codigo": "T10",
+      "rotulo": "Plantio direto × Cultivar B",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Plantio direto",
+        "Cultivar": "Cultivar B"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 11,
+      "codigo": "T11",
+      "rotulo": "Plantio direto × Cultivar C",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Plantio direto",
+        "Cultivar": "Cultivar C"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 12,
+      "codigo": "T12",
+      "rotulo": "Plantio direto × Cultivar D",
+      "tipo": "fatorial",
+      "niveis": {
+        "Preparo": "Plantio direto",
+        "Cultivar": "Cultivar D"
+      },
+      "papel": "",
+      "descricao": ""
+    }
+  ]
+}

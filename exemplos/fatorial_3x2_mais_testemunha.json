@@ -1,0 +1,553 @@
+{
+  "esquema": "exp-ag/planejamento@2",
+  "exportado_em": "2026-10-15T13:06:32+00:00",
+  "meta": {
+    "codigo": "EX-FATAD",
+    "titulo": "Exemplo — fatorial 3 × 2 + 1",
+    "projeto": "",
+    "instituicao": "",
+    "responsavel": "",
+    "colaboradores": "",
+    "objetivos": "",
+    "hipoteses": "",
+    "cultura": "",
+    "cultivar": "",
+    "local": "",
+    "municipio": "",
+    "uf": "",
+    "safra": "",
+    "ambiente": "campo",
+    "data_prevista": "",
+    "data_implantacao": "",
+    "observacoes": ""
+  },
+  "delineamento": "DBC",
+  "arranjo": "convencional",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Fonte de P",
+        "niveis": [
+          {
+            "rotulo": "SFT",
+            "valor": null
+          },
+          {
+            "rotulo": "FNR",
+            "valor": null
+          },
+          {
+            "rotulo": "OM",
+            "valor": null
+          }
+        ],
+        "tipo": "qualitativo",
+        "unidade": ""
+      },
+      {
+        "nome": "Inoculação",
+        "niveis": [
+          {
+            "rotulo": "Sem",
+            "valor": null
+          },
+          {
+            "rotulo": "Com",
+            "valor": null
+          }
+        ],
+        "tipo": "qualitativo",
+        "unidade": ""
+      }
+    ],
+    "adicionais": [
+      {
+        "rotulo": "Testemunha sem P",
+        "descricao": "",
+        "papel": "testemunha"
+      }
+    ]
+  },
+  "repeticoes": 4,
+  "layout": {
+    "tipo": "parcelas",
+    "colunas_por_bloco": 7,
+    "arranjo_blocos": "horizontal",
+    "ordem": "linear",
+    "rotacao_graus": 0.0,
+    "azimute_norte": 0.0,
+    "largura": 3.0,
+    "comprimento": 5.0,
+    "espaco_x": 0.5,
+    "espaco_y": 1.0,
+    "espaco_blocos": 2.0,
+    "espaco_sub": 0.0,
+    "bordadura_externa": 0.0,
+    "bordadura_lateral": 0.5,
+    "bordadura_cabeceira": 0.5,
+    "n_linhas_plantio": 0,
+    "espacamento_linhas": 0.0,
+    "linhas_bordadura": 1,
+    "diametro_vaso": 0.25,
+    "espaco_vasos": 0.1,
+    "bancadas": false,
+    "vasos_por_bancada": 0,
+    "margem_bancada": 0.05
+  },
+  "padrao_codigo": "{exp}-P{parcela}",
+  "numeracao": "bloco",
+  "versao": 1,
+  "casualizacao": {
+    "semente": 20261004,
+    "algoritmo": "FY-SHA256-v1",
+    "unidades": [
+      {
+        "numero": 1,
+        "parcela": "101",
+        "tratamento": 4,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 1,
+        "codigo": "EX-FATAD-P101",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 2,
+        "parcela": "102",
+        "tratamento": 1,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 2,
+        "codigo": "EX-FATAD-P102",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 3,
+        "parcela": "103",
+        "tratamento": 6,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 3,
+        "codigo": "EX-FATAD-P103",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 4,
+        "parcela": "104",
+        "tratamento": 2,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 4,
+        "codigo": "EX-FATAD-P104",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 5,
+        "parcela": "105",
+        "tratamento": 5,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 5,
+        "codigo": "EX-FATAD-P105",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 6,
+        "parcela": "106",
+        "tratamento": 3,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 6,
+        "codigo": "EX-FATAD-P106",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 7,
+        "parcela": "107",
+        "tratamento": 7,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 7,
+        "codigo": "EX-FATAD-P107",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 8,
+        "parcela": "201",
+        "tratamento": 6,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 1,
+        "codigo": "EX-FATAD-P201",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 9,
+        "parcela": "202",
+        "tratamento": 1,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 2,
+        "codigo": "EX-FATAD-P202",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 10,
+        "parcela": "203",
+        "tratamento": 3,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 3,
+        "codigo": "EX-FATAD-P203",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 11,
+        "parcela": "204",
+        "tratamento": 5,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 4,
+        "codigo": "EX-FATAD-P204",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 12,
+        "parcela": "205",
+        "tratamento": 7,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 5,
+        "codigo": "EX-FATAD-P205",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 13,
+        "parcela": "206",
+        "tratamento": 4,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 6,
+        "codigo": "EX-FATAD-P206",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 14,
+        "parcela": "207",
+        "tratamento": 2,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 7,
+        "codigo": "EX-FATAD-P207",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 15,
+        "parcela": "301",
+        "tratamento": 1,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 1,
+        "codigo": "EX-FATAD-P301",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 16,
+        "parcela": "302",
+        "tratamento": 3,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 2,
+        "codigo": "EX-FATAD-P302",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 17,
+        "parcela": "303",
+        "tratamento": 5,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 3,
+        "codigo": "EX-FATAD-P303",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 18,
+        "parcela": "304",
+        "tratamento": 4,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 4,
+        "codigo": "EX-FATAD-P304",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 19,
+        "parcela": "305",
+        "tratamento": 7,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 5,
+        "codigo": "EX-FATAD-P305",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 20,
+        "parcela": "306",
+        "tratamento": 2,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 6,
+        "codigo": "EX-FATAD-P306",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 21,
+        "parcela": "307",
+        "tratamento": 6,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 7,
+        "codigo": "EX-FATAD-P307",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 22,
+        "parcela": "401",
+        "tratamento": 5,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 1,
+        "codigo": "EX-FATAD-P401",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 23,
+        "parcela": "402",
+        "tratamento": 4,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 2,
+        "codigo": "EX-FATAD-P402",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 24,
+        "parcela": "403",
+        "tratamento": 6,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 3,
+        "codigo": "EX-FATAD-P403",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 25,
+        "parcela": "404",
+        "tratamento": 7,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 4,
+        "codigo": "EX-FATAD-P404",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 26,
+        "parcela": "405",
+        "tratamento": 3,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 5,
+        "codigo": "EX-FATAD-P405",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 27,
+        "parcela": "406",
+        "tratamento": 1,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 6,
+        "codigo": "EX-FATAD-P406",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 28,
+        "parcela": "407",
+        "tratamento": 2,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 7,
+        "codigo": "EX-FATAD-P407",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      }
+    ]
+  },
+  "tratamentos": [
+    {
+      "numero": 1,
+      "codigo": "T01",
+      "rotulo": "SFT × Sem",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "SFT",
+        "Inoculação": "Sem"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 2,
+      "codigo": "T02",
+      "rotulo": "SFT × Com",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "SFT",
+        "Inoculação": "Com"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 3,
+      "codigo": "T03",
+      "rotulo": "FNR × Sem",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "FNR",
+        "Inoculação": "Sem"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 4,
+      "codigo": "T04",
+      "rotulo": "FNR × Com",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "FNR",
+        "Inoculação": "Com"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 5,
+      "codigo": "T05",
+      "rotulo": "OM × Sem",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "OM",
+        "Inoculação": "Sem"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 6,
+      "codigo": "T06",
+      "rotulo": "OM × Com",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "OM",
+        "Inoculação": "Com"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 7,
+      "codigo": "T07",
+      "rotulo": "Testemunha sem P",
+      "tipo": "adicional",
+      "niveis": {},
+      "papel": "testemunha",
+      "descricao": ""
+    }
+  ]
+}

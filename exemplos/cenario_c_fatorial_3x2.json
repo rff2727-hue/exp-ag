@@ -1,0 +1,486 @@
+{
+  "esquema": "exp-ag/planejamento@2",
+  "exportado_em": "2026-10-15T13:06:32+00:00",
+  "meta": {
+    "codigo": "EX-FAT",
+    "titulo": "Exemplo C — fatorial 3 × 2 em DBC",
+    "projeto": "",
+    "instituicao": "",
+    "responsavel": "",
+    "colaboradores": "",
+    "objetivos": "Demonstrar a construção automática da matriz fatorial.",
+    "hipoteses": "",
+    "cultura": "soja",
+    "cultivar": "",
+    "local": "",
+    "municipio": "",
+    "uf": "",
+    "safra": "",
+    "ambiente": "campo",
+    "data_prevista": "",
+    "data_implantacao": "",
+    "observacoes": ""
+  },
+  "delineamento": "DBC",
+  "arranjo": "convencional",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Fonte de P",
+        "niveis": [
+          {
+            "rotulo": "Superfosfato triplo",
+            "valor": null
+          },
+          {
+            "rotulo": "Fosfato natural reativo",
+            "valor": null
+          },
+          {
+            "rotulo": "Organomineral",
+            "valor": null
+          }
+        ],
+        "tipo": "qualitativo",
+        "unidade": ""
+      },
+      {
+        "nome": "Inoculação",
+        "niveis": [
+          {
+            "rotulo": "Sem",
+            "valor": null
+          },
+          {
+            "rotulo": "Com",
+            "valor": null
+          }
+        ],
+        "tipo": "qualitativo",
+        "unidade": ""
+      }
+    ],
+    "adicionais": []
+  },
+  "repeticoes": 4,
+  "layout": {
+    "tipo": "parcelas",
+    "colunas_por_bloco": 6,
+    "arranjo_blocos": "horizontal",
+    "ordem": "linear",
+    "rotacao_graus": 0.0,
+    "azimute_norte": 0.0,
+    "largura": 3.0,
+    "comprimento": 6.0,
+    "espaco_x": 0.5,
+    "espaco_y": 1.0,
+    "espaco_blocos": 2.0,
+    "espaco_sub": 0.0,
+    "bordadura_externa": 0.0,
+    "bordadura_lateral": 0.5,
+    "bordadura_cabeceira": 0.5,
+    "n_linhas_plantio": 6,
+    "espacamento_linhas": 0.45,
+    "linhas_bordadura": 1,
+    "diametro_vaso": 0.25,
+    "espaco_vasos": 0.1,
+    "bancadas": false,
+    "vasos_por_bancada": 0,
+    "margem_bancada": 0.05
+  },
+  "padrao_codigo": "{exp}-P{parcela}-B{bloco}-T{trat}",
+  "numeracao": "bloco",
+  "versao": 1,
+  "casualizacao": {
+    "semente": 20261003,
+    "algoritmo": "FY-SHA256-v1",
+    "unidades": [
+      {
+        "numero": 1,
+        "parcela": "101",
+        "tratamento": 4,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 1,
+        "codigo": "EX-FAT-P101-B01-T04",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 2,
+        "parcela": "102",
+        "tratamento": 3,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 2,
+        "codigo": "EX-FAT-P102-B01-T03",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 3,
+        "parcela": "103",
+        "tratamento": 1,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 3,
+        "codigo": "EX-FAT-P103-B01-T01",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 4,
+        "parcela": "104",
+        "tratamento": 6,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 4,
+        "codigo": "EX-FAT-P104-B01-T06",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 5,
+        "parcela": "105",
+        "tratamento": 5,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 5,
+        "codigo": "EX-FAT-P105-B01-T05",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 6,
+        "parcela": "106",
+        "tratamento": 2,
+        "bloco": 1,
+        "repeticao": 1,
+        "posicao": 6,
+        "codigo": "EX-FAT-P106-B01-T02",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 7,
+        "parcela": "201",
+        "tratamento": 6,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 1,
+        "codigo": "EX-FAT-P201-B02-T06",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 8,
+        "parcela": "202",
+        "tratamento": 4,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 2,
+        "codigo": "EX-FAT-P202-B02-T04",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 9,
+        "parcela": "203",
+        "tratamento": 2,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 3,
+        "codigo": "EX-FAT-P203-B02-T02",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 10,
+        "parcela": "204",
+        "tratamento": 1,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 4,
+        "codigo": "EX-FAT-P204-B02-T01",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 11,
+        "parcela": "205",
+        "tratamento": 5,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 5,
+        "codigo": "EX-FAT-P205-B02-T05",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 12,
+        "parcela": "206",
+        "tratamento": 3,
+        "bloco": 2,
+        "repeticao": 2,
+        "posicao": 6,
+        "codigo": "EX-FAT-P206-B02-T03",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 13,
+        "parcela": "301",
+        "tratamento": 6,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 1,
+        "codigo": "EX-FAT-P301-B03-T06",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 14,
+        "parcela": "302",
+        "tratamento": 5,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 2,
+        "codigo": "EX-FAT-P302-B03-T05",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 15,
+        "parcela": "303",
+        "tratamento": 3,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 3,
+        "codigo": "EX-FAT-P303-B03-T03",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 16,
+        "parcela": "304",
+        "tratamento": 2,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 4,
+        "codigo": "EX-FAT-P304-B03-T02",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 17,
+        "parcela": "305",
+        "tratamento": 1,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 5,
+        "codigo": "EX-FAT-P305-B03-T01",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 18,
+        "parcela": "306",
+        "tratamento": 4,
+        "bloco": 3,
+        "repeticao": 3,
+        "posicao": 6,
+        "codigo": "EX-FAT-P306-B03-T04",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 19,
+        "parcela": "401",
+        "tratamento": 4,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 1,
+        "codigo": "EX-FAT-P401-B04-T04",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 20,
+        "parcela": "402",
+        "tratamento": 3,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 2,
+        "codigo": "EX-FAT-P402-B04-T03",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 21,
+        "parcela": "403",
+        "tratamento": 1,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 3,
+        "codigo": "EX-FAT-P403-B04-T01",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 22,
+        "parcela": "404",
+        "tratamento": 6,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 4,
+        "codigo": "EX-FAT-P404-B04-T06",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 23,
+        "parcela": "405",
+        "tratamento": 2,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 5,
+        "codigo": "EX-FAT-P405-B04-T02",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 24,
+        "parcela": "406",
+        "tratamento": 5,
+        "bloco": 4,
+        "repeticao": 4,
+        "posicao": 6,
+        "codigo": "EX-FAT-P406-B04-T05",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      }
+    ]
+  },
+  "tratamentos": [
+    {
+      "numero": 1,
+      "codigo": "T01",
+      "rotulo": "Superfosfato triplo × Sem",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "Superfosfato triplo",
+        "Inoculação": "Sem"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 2,
+      "codigo": "T02",
+      "rotulo": "Superfosfato triplo × Com",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "Superfosfato triplo",
+        "Inoculação": "Com"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 3,
+      "codigo": "T03",
+      "rotulo": "Fosfato natural reativo × Sem",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "Fosfato natural reativo",
+        "Inoculação": "Sem"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 4,
+      "codigo": "T04",
+      "rotulo": "Fosfato natural reativo × Com",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "Fosfato natural reativo",
+        "Inoculação": "Com"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 5,
+      "codigo": "T05",
+      "rotulo": "Organomineral × Sem",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "Organomineral",
+        "Inoculação": "Sem"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 6,
+      "codigo": "T06",
+      "rotulo": "Organomineral × Com",
+      "tipo": "fatorial",
+      "niveis": {
+        "Fonte de P": "Organomineral",
+        "Inoculação": "Com"
+      },
+      "papel": "",
+      "descricao": ""
+    }
+  ]
+}

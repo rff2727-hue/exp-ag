@@ -1,0 +1,475 @@
+{
+  "esquema": "exp-ag/planejamento@2",
+  "exportado_em": "2026-10-15T13:06:32+00:00",
+  "meta": {
+    "codigo": "EX-QL",
+    "titulo": "Quadrado latino em bancada",
+    "projeto": "",
+    "instituicao": "",
+    "responsavel": "",
+    "colaboradores": "",
+    "objetivos": "",
+    "hipoteses": "",
+    "cultura": "",
+    "cultivar": "",
+    "local": "",
+    "municipio": "",
+    "uf": "",
+    "safra": "",
+    "ambiente": "casa de vegetação",
+    "data_prevista": "",
+    "data_implantacao": "",
+    "observacoes": ""
+  },
+  "delineamento": "QL",
+  "arranjo": "convencional",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Tratamento",
+        "niveis": [
+          {
+            "rotulo": "Tratamento 1",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 2",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 3",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 4",
+            "valor": null
+          },
+          {
+            "rotulo": "Tratamento 5",
+            "valor": null
+          }
+        ],
+        "tipo": "qualitativo",
+        "unidade": ""
+      }
+    ],
+    "adicionais": []
+  },
+  "repeticoes": 5,
+  "layout": {
+    "tipo": "vasos",
+    "colunas_por_bloco": 0,
+    "arranjo_blocos": "horizontal",
+    "ordem": "linear",
+    "rotacao_graus": 0.0,
+    "azimute_norte": 0.0,
+    "largura": 3.0,
+    "comprimento": 5.0,
+    "espaco_x": 0.5,
+    "espaco_y": 1.0,
+    "espaco_blocos": 2.0,
+    "espaco_sub": 0.0,
+    "bordadura_externa": 0.0,
+    "bordadura_lateral": 0.5,
+    "bordadura_cabeceira": 0.5,
+    "n_linhas_plantio": 0,
+    "espacamento_linhas": 0.0,
+    "linhas_bordadura": 1,
+    "diametro_vaso": 0.25,
+    "espaco_vasos": 0.1,
+    "bancadas": true,
+    "vasos_por_bancada": 0,
+    "margem_bancada": 0.05
+  },
+  "padrao_codigo": "{exp}-L{lin}C{col}-T{trat}",
+  "numeracao": "sequencial",
+  "versao": 1,
+  "casualizacao": {
+    "semente": 20261015,
+    "algoritmo": "FY-SHA256-v1",
+    "unidades": [
+      {
+        "numero": 1,
+        "parcela": "1",
+        "tratamento": 3,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 1,
+        "codigo": "EX-QL-L01C01-T03",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 1
+      },
+      {
+        "numero": 2,
+        "parcela": "2",
+        "tratamento": 4,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 2,
+        "codigo": "EX-QL-L01C02-T04",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 2
+      },
+      {
+        "numero": 3,
+        "parcela": "3",
+        "tratamento": 2,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 3,
+        "codigo": "EX-QL-L01C03-T02",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 3
+      },
+      {
+        "numero": 4,
+        "parcela": "4",
+        "tratamento": 5,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 4,
+        "codigo": "EX-QL-L01C04-T05",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 4
+      },
+      {
+        "numero": 5,
+        "parcela": "5",
+        "tratamento": 1,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 5,
+        "codigo": "EX-QL-L01C05-T01",
+        "principal": null,
+        "sub": null,
+        "linha": 1,
+        "coluna": 5
+      },
+      {
+        "numero": 6,
+        "parcela": "6",
+        "tratamento": 2,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 6,
+        "codigo": "EX-QL-L02C01-T02",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 1
+      },
+      {
+        "numero": 7,
+        "parcela": "7",
+        "tratamento": 1,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 7,
+        "codigo": "EX-QL-L02C02-T01",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 2
+      },
+      {
+        "numero": 8,
+        "parcela": "8",
+        "tratamento": 5,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 8,
+        "codigo": "EX-QL-L02C03-T05",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 3
+      },
+      {
+        "numero": 9,
+        "parcela": "9",
+        "tratamento": 4,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 9,
+        "codigo": "EX-QL-L02C04-T04",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 4
+      },
+      {
+        "numero": 10,
+        "parcela": "10",
+        "tratamento": 3,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 10,
+        "codigo": "EX-QL-L02C05-T03",
+        "principal": null,
+        "sub": null,
+        "linha": 2,
+        "coluna": 5
+      },
+      {
+        "numero": 11,
+        "parcela": "11",
+        "tratamento": 4,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 11,
+        "codigo": "EX-QL-L03C01-T04",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 1
+      },
+      {
+        "numero": 12,
+        "parcela": "12",
+        "tratamento": 2,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 12,
+        "codigo": "EX-QL-L03C02-T02",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 2
+      },
+      {
+        "numero": 13,
+        "parcela": "13",
+        "tratamento": 1,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 13,
+        "codigo": "EX-QL-L03C03-T01",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 3
+      },
+      {
+        "numero": 14,
+        "parcela": "14",
+        "tratamento": 3,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 14,
+        "codigo": "EX-QL-L03C04-T03",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 4
+      },
+      {
+        "numero": 15,
+        "parcela": "15",
+        "tratamento": 5,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 15,
+        "codigo": "EX-QL-L03C05-T05",
+        "principal": null,
+        "sub": null,
+        "linha": 3,
+        "coluna": 5
+      },
+      {
+        "numero": 16,
+        "parcela": "16",
+        "tratamento": 5,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 16,
+        "codigo": "EX-QL-L04C01-T05",
+        "principal": null,
+        "sub": null,
+        "linha": 4,
+        "coluna": 1
+      },
+      {
+        "numero": 17,
+        "parcela": "17",
+        "tratamento": 3,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 17,
+        "codigo": "EX-QL-L04C02-T03",
+        "principal": null,
+        "sub": null,
+        "linha": 4,
+        "coluna": 2
+      },
+      {
+        "numero": 18,
+        "parcela": "18",
+        "tratamento": 4,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 18,
+        "codigo": "EX-QL-L04C03-T04",
+        "principal": null,
+        "sub": null,
+        "linha": 4,
+        "coluna": 3
+      },
+      {
+        "numero": 19,
+        "parcela": "19",
+        "tratamento": 1,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 19,
+        "codigo": "EX-QL-L04C04-T01",
+        "principal": null,
+        "sub": null,
+        "linha": 4,
+        "coluna": 4
+      },
+      {
+        "numero": 20,
+        "parcela": "20",
+        "tratamento": 2,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 20,
+        "codigo": "EX-QL-L04C05-T02",
+        "principal": null,
+        "sub": null,
+        "linha": 4,
+        "coluna": 5
+      },
+      {
+        "numero": 21,
+        "parcela": "21",
+        "tratamento": 1,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 21,
+        "codigo": "EX-QL-L05C01-T01",
+        "principal": null,
+        "sub": null,
+        "linha": 5,
+        "coluna": 1
+      },
+      {
+        "numero": 22,
+        "parcela": "22",
+        "tratamento": 5,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 22,
+        "codigo": "EX-QL-L05C02-T05",
+        "principal": null,
+        "sub": null,
+        "linha": 5,
+        "coluna": 2
+      },
+      {
+        "numero": 23,
+        "parcela": "23",
+        "tratamento": 3,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 23,
+        "codigo": "EX-QL-L05C03-T03",
+        "principal": null,
+        "sub": null,
+        "linha": 5,
+        "coluna": 3
+      },
+      {
+        "numero": 24,
+        "parcela": "24",
+        "tratamento": 2,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 24,
+        "codigo": "EX-QL-L05C04-T02",
+        "principal": null,
+        "sub": null,
+        "linha": 5,
+        "coluna": 4
+      },
+      {
+        "numero": 25,
+        "parcela": "25",
+        "tratamento": 4,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 25,
+        "codigo": "EX-QL-L05C05-T04",
+        "principal": null,
+        "sub": null,
+        "linha": 5,
+        "coluna": 5
+      }
+    ]
+  },
+  "tratamentos": [
+    {
+      "numero": 1,
+      "codigo": "T01",
+      "rotulo": "Tratamento 1",
+      "tipo": "fatorial",
+      "niveis": {
+        "Tratamento": "Tratamento 1"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 2,
+      "codigo": "T02",
+      "rotulo": "Tratamento 2",
+      "tipo": "fatorial",
+      "niveis": {
+        "Tratamento": "Tratamento 2"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 3,
+      "codigo": "T03",
+      "rotulo": "Tratamento 3",
+      "tipo": "fatorial",
+      "niveis": {
+        "Tratamento": "Tratamento 3"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 4,
+      "codigo": "T04",
+      "rotulo": "Tratamento 4",
+      "tipo": "fatorial",
+      "niveis": {
+        "Tratamento": "Tratamento 4"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 5,
+      "codigo": "T05",
+      "rotulo": "Tratamento 5",
+      "tipo": "fatorial",
+      "niveis": {
+        "Tratamento": "Tratamento 5"
+      },
+      "papel": "",
+      "descricao": ""
+    }
+  ]
+}

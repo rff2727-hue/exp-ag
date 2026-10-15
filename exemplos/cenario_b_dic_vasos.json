@@ -1,0 +1,555 @@
+{
+  "esquema": "exp-ag/planejamento@2",
+  "exportado_em": "2026-10-15T13:06:32+00:00",
+  "meta": {
+    "codigo": "EX-VASOS",
+    "titulo": "Exemplo B — DIC em vasos com 6 doses de P",
+    "projeto": "",
+    "instituicao": "",
+    "responsavel": "",
+    "colaboradores": "",
+    "objetivos": "Demonstrar um DIC em vasos com identificação individual.",
+    "hipoteses": "",
+    "cultura": "milho",
+    "cultivar": "",
+    "local": "",
+    "municipio": "",
+    "uf": "",
+    "safra": "",
+    "ambiente": "casa de vegetação",
+    "data_prevista": "",
+    "data_implantacao": "",
+    "observacoes": ""
+  },
+  "delineamento": "DIC",
+  "arranjo": "convencional",
+  "estrutura": {
+    "fatores": [
+      {
+        "nome": "Dose de P",
+        "niveis": [
+          {
+            "rotulo": "0",
+            "valor": 0
+          },
+          {
+            "rotulo": "25",
+            "valor": 25
+          },
+          {
+            "rotulo": "50",
+            "valor": 50
+          },
+          {
+            "rotulo": "100",
+            "valor": 100
+          },
+          {
+            "rotulo": "200",
+            "valor": 200
+          },
+          {
+            "rotulo": "400",
+            "valor": 400
+          }
+        ],
+        "tipo": "quantitativo",
+        "unidade": "mg kg⁻¹"
+      }
+    ],
+    "adicionais": []
+  },
+  "repeticoes": 5,
+  "layout": {
+    "tipo": "vasos",
+    "colunas_por_bloco": 6,
+    "arranjo_blocos": "horizontal",
+    "ordem": "linear",
+    "rotacao_graus": 0.0,
+    "azimute_norte": 0.0,
+    "largura": 3.0,
+    "comprimento": 5.0,
+    "espaco_x": 0.5,
+    "espaco_y": 1.0,
+    "espaco_blocos": 2.0,
+    "espaco_sub": 0.0,
+    "bordadura_externa": 0.0,
+    "bordadura_lateral": 0.5,
+    "bordadura_cabeceira": 0.5,
+    "n_linhas_plantio": 0,
+    "espacamento_linhas": 0.0,
+    "linhas_bordadura": 1,
+    "diametro_vaso": 0.25,
+    "espaco_vasos": 0.1,
+    "bancadas": false,
+    "vasos_por_bancada": 0,
+    "margem_bancada": 0.05
+  },
+  "padrao_codigo": "{exp}-P{parcela}-T{trat}-R{rep}",
+  "numeracao": "sequencial",
+  "versao": 1,
+  "casualizacao": {
+    "semente": 20261002,
+    "algoritmo": "FY-SHA256-v1",
+    "unidades": [
+      {
+        "numero": 1,
+        "parcela": "1",
+        "tratamento": 2,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 1,
+        "codigo": "EX-VASOS-P01-T02-R01",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 2,
+        "parcela": "2",
+        "tratamento": 5,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 2,
+        "codigo": "EX-VASOS-P02-T05-R01",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 3,
+        "parcela": "3",
+        "tratamento": 1,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 3,
+        "codigo": "EX-VASOS-P03-T01-R01",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 4,
+        "parcela": "4",
+        "tratamento": 3,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 4,
+        "codigo": "EX-VASOS-P04-T03-R01",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 5,
+        "parcela": "5",
+        "tratamento": 1,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 5,
+        "codigo": "EX-VASOS-P05-T01-R02",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 6,
+        "parcela": "6",
+        "tratamento": 4,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 6,
+        "codigo": "EX-VASOS-P06-T04-R01",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 7,
+        "parcela": "7",
+        "tratamento": 5,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 7,
+        "codigo": "EX-VASOS-P07-T05-R02",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 8,
+        "parcela": "8",
+        "tratamento": 3,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 8,
+        "codigo": "EX-VASOS-P08-T03-R02",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 9,
+        "parcela": "9",
+        "tratamento": 2,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 9,
+        "codigo": "EX-VASOS-P09-T02-R02",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 10,
+        "parcela": "10",
+        "tratamento": 3,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 10,
+        "codigo": "EX-VASOS-P10-T03-R03",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 11,
+        "parcela": "11",
+        "tratamento": 4,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 11,
+        "codigo": "EX-VASOS-P11-T04-R02",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 12,
+        "parcela": "12",
+        "tratamento": 2,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 12,
+        "codigo": "EX-VASOS-P12-T02-R03",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 13,
+        "parcela": "13",
+        "tratamento": 4,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 13,
+        "codigo": "EX-VASOS-P13-T04-R03",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 14,
+        "parcela": "14",
+        "tratamento": 6,
+        "bloco": null,
+        "repeticao": 1,
+        "posicao": 14,
+        "codigo": "EX-VASOS-P14-T06-R01",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 15,
+        "parcela": "15",
+        "tratamento": 5,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 15,
+        "codigo": "EX-VASOS-P15-T05-R03",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 16,
+        "parcela": "16",
+        "tratamento": 2,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 16,
+        "codigo": "EX-VASOS-P16-T02-R04",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 17,
+        "parcela": "17",
+        "tratamento": 1,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 17,
+        "codigo": "EX-VASOS-P17-T01-R03",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 18,
+        "parcela": "18",
+        "tratamento": 4,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 18,
+        "codigo": "EX-VASOS-P18-T04-R04",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 19,
+        "parcela": "19",
+        "tratamento": 6,
+        "bloco": null,
+        "repeticao": 2,
+        "posicao": 19,
+        "codigo": "EX-VASOS-P19-T06-R02",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 20,
+        "parcela": "20",
+        "tratamento": 1,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 20,
+        "codigo": "EX-VASOS-P20-T01-R04",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 21,
+        "parcela": "21",
+        "tratamento": 3,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 21,
+        "codigo": "EX-VASOS-P21-T03-R04",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 22,
+        "parcela": "22",
+        "tratamento": 6,
+        "bloco": null,
+        "repeticao": 3,
+        "posicao": 22,
+        "codigo": "EX-VASOS-P22-T06-R03",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 23,
+        "parcela": "23",
+        "tratamento": 4,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 23,
+        "codigo": "EX-VASOS-P23-T04-R05",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 24,
+        "parcela": "24",
+        "tratamento": 5,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 24,
+        "codigo": "EX-VASOS-P24-T05-R04",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 25,
+        "parcela": "25",
+        "tratamento": 6,
+        "bloco": null,
+        "repeticao": 4,
+        "posicao": 25,
+        "codigo": "EX-VASOS-P25-T06-R04",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 26,
+        "parcela": "26",
+        "tratamento": 5,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 26,
+        "codigo": "EX-VASOS-P26-T05-R05",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 27,
+        "parcela": "27",
+        "tratamento": 6,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 27,
+        "codigo": "EX-VASOS-P27-T06-R05",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 28,
+        "parcela": "28",
+        "tratamento": 2,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 28,
+        "codigo": "EX-VASOS-P28-T02-R05",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 29,
+        "parcela": "29",
+        "tratamento": 3,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 29,
+        "codigo": "EX-VASOS-P29-T03-R05",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      },
+      {
+        "numero": 30,
+        "parcela": "30",
+        "tratamento": 1,
+        "bloco": null,
+        "repeticao": 5,
+        "posicao": 30,
+        "codigo": "EX-VASOS-P30-T01-R05",
+        "principal": null,
+        "sub": null,
+        "linha": null,
+        "coluna": null
+      }
+    ]
+  },
+  "tratamentos": [
+    {
+      "numero": 1,
+      "codigo": "T01",
+      "rotulo": "0 mg kg⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Dose de P": "0"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 2,
+      "codigo": "T02",
+      "rotulo": "25 mg kg⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Dose de P": "25"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 3,
+      "codigo": "T03",
+      "rotulo": "50 mg kg⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Dose de P": "50"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 4,
+      "codigo": "T04",
+      "rotulo": "100 mg kg⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Dose de P": "100"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 5,
+      "codigo": "T05",
+      "rotulo": "200 mg kg⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Dose de P": "200"
+      },
+      "papel": "",
+      "descricao": ""
+    },
+    {
+      "numero": 6,
+      "codigo": "T06",
+      "rotulo": "400 mg kg⁻¹",
+      "tipo": "fatorial",
+      "niveis": {
+        "Dose de P": "400"
+      },
+      "papel": "",
+      "descricao": ""
+    }
+  ]
+}
